@@ -1,0 +1,25 @@
+@media only screen and (min-width: 400px) {
+    .row {
+        margin-right: 15px;
+    }
+    
+    #hide {
+        position: absolute;
+        top: 5px;
+    }
+    
+    .navbar-default {
+        background-color: blue;
+    }
+    
+    #box1 {
+        position: fixed;
+        left: 0px;
+        top: 50px;
+        padding: 0px;
+        width: 200px;
+        height: 100%;
+        background-color: #00bfff;
+        display: none;
+    }
+}
