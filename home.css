@@ -70,3 +70,8 @@ body {
 .address2 p {
     margin-top: 15px;
 }
+.employees {
+    width: 80%;
+    height: 35%;
+    margin-top: 20px;
+}
