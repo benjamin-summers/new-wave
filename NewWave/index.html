@@ -1,0 +1,100 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dont Blink Store</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="mystylesheets/home.css" />
+    <link rel="stylesheet" href="mystylesheets/navbar.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Molle:400i" rel="stylesheet">
+    <script src="js/vendor/modernizr.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="off-canvas-wrap" data-offcanvas>
+        <div class="inner-wrap">
+            <div class="fixed">
+                <nav class="tab-bar myNavbar">
+                    <section class="left-small"> <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a> </section>
+                    <section class="middle tab-bar-section"> <img id="icon" src="images/Mohawk.gif" /> </section>
+                </nav>
+            </div>
+            <aside class="left-off-canvas-menu">
+                <ul class="off-canvas-list">
+                    <li class="text-center">
+                        <label>New Wave Flooring</label>
+                    </li>
+                    <li class="text-center"><a href="index.html">Home</a></li>
+                    <li class="text-center"><a href="samples.html">Samples</a></li>
+                    <li class="text-center"><a href="about.html">About</a></li>
+                </ul>
+                <ul id="contactInfo" class="off-canvas-list">
+                    <li class="text-center">
+                        <label>Contact</label>
+                    </li>
+                    <li class="text-center"><a href="tel:4237798788"><i class="fa fa-phone-square" aria-hidden="true"></i> Phone: <br>(423)-779-8788</a></li>
+                    <li class="text-center"><a href="mailto:summerstyler2@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> Email: Summerstyler2@gmail.com</a></li>
+                </ul>
+                <ul id="adressLabel" class="off-canvas-list">
+                    <li class="text-center">
+                        <label>adress</label>
+                    </li>
+                </ul>
+                <ul id="adress" class="off-canvas-list">
+                    <li class="text-center">8933 brett daniel way</li>
+                </ul>
+                <div id="map"></div>
+            </aside>
+            <section class="main-section">
+                <ul class="small-block-grid-1 medium-block-grid-1 large-block-grid-1 welcome">
+                    <li><img id="welcome" src="images/Untitled.png"></li>
+                </ul>
+                <hr>
+                  <div class="row">
+                    <div class="small-6 small-centered medium-6 medium-centered large-6 large-centered columns">
+                        <p class="text-center deals">Monthly Deals</p>
+                    </div>
+                </div>
+                <hr>
+                <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2 dealsImages">
+                    <li class="dImg"> <img src="images/freeEstimates.png" class="float-center"> </li>
+                    <li class="dImg2"> <img src="images/freeInstallsSnow.png" class="float-center"> </li>
+                </ul>
+                <hr>
+                <div class="row">
+                    <div class="small-6 small-centered medium-6 medium-centered large-6 large-centered columns"> <a id="samplesButton" class="expanded button" href="#">Samples</a> </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="small-12 medium-12 large-12 columns addressHeader">
+                        <li class="text-center">Address</li>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12 medium-12 large-12 columns storeAddress">
+                        <li class="text-center">8933 brett dainel way</li>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12 medium-12 large-12 columns">
+                        <li class="text-center addressImg"><img src="images/ourEmployees.jpeg"></li>
+                    </div>
+                </div>
+            </section>
+            <a class="exit-off-canvas"></a>
+        </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDPKfFbkkbrGPE1oP-IJik884GebgOoDlk&callback=initMap">
+    </script>
+</body>
+
+</html>

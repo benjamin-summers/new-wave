@@ -1,0 +1,23 @@
+.myNavbar {
+    background-color: #E4E4E4;
+}
+
+#icon {
+    height: 40px;
+    width: 100px;
+}
+#contactInfo {
+    margin-top: 20px;
+}
+#adressLabel {
+    margin-top: 35px;
+}
+#adress {
+    color: whitesmoke;
+    margin-top: 20px;
+}
+#map {
+    margin-top: 30px;
+    height: 300px;
+    width: 100%;
+}

@@ -1,0 +1,15 @@
+#about {
+    border: 1px double blue;
+    border-radius: 12px;
+    margin-top: 100px;
+    background-color: darkblue;
+    opacity: 0.6;
+}
+#about p {
+    font-size: 20px;
+    color: white;
+}
+.Strand {
+    border-radius: 12px;
+    margin-top: 100px;
+}
