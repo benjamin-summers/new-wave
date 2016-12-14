@@ -1,0 +1,69 @@
+#aboutWelcome {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.commercials {
+    background-color: red;
+}
+
+#gMap {
+    width: 94%;
+    margin-right: 3%;
+    margin-left: 3%;
+    height: 240px;
+}
+.aboutContent {
+    background-color: gainsboro;
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#footerImg2 {
+    width: 90%;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    #aboutWelcome {
+        height: 400px;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .commercials {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #gMap {
+        height: 400px;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #footerImg1 {
+        height: 290px;
+    }
+    #footerImg2 {
+        width: 90%;
+        height: inherit;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    #footerImg2 {
+        width: 100%;
+    }
+}

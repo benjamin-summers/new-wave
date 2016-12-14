@@ -1,13 +1,6 @@
-#logo {
-    width: 150px;
-    height: 65px;
-    position: relative;
-    bottom: 50px;
-    z-index: 1000;
-    
-}
+
 .navbar-default {
-    height: 65px;
+    height: 40px;
     
 }
 .divider {
@@ -46,35 +39,35 @@ section {
     margin-left: 15%;
     margin-right: 15%;
 }
+.HardwoodHeader p {
+    color: white;
+    font-size: 20px;
+}
 .smartHeader h1, p {
-    color: slategray;
+    color: black;
 }
 .smartHeader p {
     font-size: 20px;
 }
 
 .bg-1 {
-	background: url('/images/hardwood.png') no-repeat center center fixed;
+	background: url('/NewWave/images/hWOOD.png') no-repeat center center fixed;
     color:#fff;
     background-size:cover;
 }
   
 .bg-2 {
-	background: url('/images/smartstrand.jpg') no-repeat top center fixed;
+	background: url('/NewWave/images/smartstrand.jpg') no-repeat top center fixed;
     color:#fff;
     background-size:cover;
 }
 
 .bg-3 {
-	background: url('/images/duraceramic.png') no-repeat bottom center fixed;
+	background: url('/NewWave/images/DURACERAM.png') no-repeat bottom center fixed;
     color:#fff;
     background-size:cover;
 }
 @media only screen and (min-width:768px) {
-    #logo {
-        position: relative;
-        bottom: 0px;
-    }
     #img1 {
         width: 80%;
         height: 400px;
